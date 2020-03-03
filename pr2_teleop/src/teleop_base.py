@@ -5,7 +5,7 @@ import sys
 twist = Twist()
 
 def values():
-    print '(w for forward, a for left, s for reverse, d for right,k for turning left,l for turning right and . to exit)' + '\n'
+    print '(w for forward, a for left, s for reverse, d for right. Press ENTER after the selscted key)' + '\n'
     s = raw_input(':- ')
     if s[0] == 'w':
         twist.linear.x = 1.0
